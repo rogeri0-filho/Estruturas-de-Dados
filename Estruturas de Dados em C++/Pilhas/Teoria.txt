@@ -1,0 +1,26 @@
+O que é uma Pilha?
+
+A estrutura de pilhas, podem ser equiparadas a uma pilha de pratos.
+
+A primeira coisa a fazer ao tentar adicionar um elemento novo, é verificar se a pilha está ou não cheia.
+
+Sempre que um elemento novo for adicionado, ele será inserido no topo da pilha.
+
+Antes de remover um elemento, deve se verificar se ainda tem elementos na pilha.
+
+Ao tentar temover um elemento de uma pilha, o primeiro elemento removido será p elemento do topo.
+
+Segue a logica LIFO: Last In, Fist Out -> Ultimo aentrar, Primeiro a sair.
+ou FILO: Fist In, Last Out -> Primeiro a entrar, Ultimo a sair.
+
+ex: históricos de busca de navegadores, pilhas de prato, histórico de edição de texto, etc.
+
+avançar e voltar são pilhas.
+
+/*
+A grosso modo, torna o TipoItem uma palavra reservada, al qual, todo a as variáveis
+que recebrem o valor TipoItem, do tipo inteiro. 
+
+Tem uma função de certa forma parecida com a função define no arduino.
+*/ pilha.h
+
