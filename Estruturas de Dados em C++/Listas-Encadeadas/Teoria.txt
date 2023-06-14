@@ -1,0 +1,50 @@
+Lista Linear:
+
+- Elementos de um mesmo tipo de dado estão organizados de maneira sequencial
+- Não necessariamente estão fisicamente em sequencia na memória do computador
+- Todo elemento deve ter um predecessor e um sucessor, com exceção do primeiro e do último
+
+Lista Linear Sequencial (ou Contígua):
+
+- Elementos estão logica e fisicamente em sequencia, ou seja além de estarem organizados
+logicamente, também estão organizados na memória do computador em uma ordem lógica
+- A maneira mais simples de fazer isso, é através de vetores
+
+Lista Encadeada (ou Ligada):
+
+- Lista Linear Dispersa.
+- Os elementos não estão necessariamente armazenados em ordem na memória, porém
+existe uma ordem lógica entre os elementos.
+- Listas encadeadas necessitam de ponteiros
+- É possível aumentar e diminuir a lista
+
+
+VANTAGENS:
+
+-> Lista Linear Sequencial:
+- Fácil acesso aos elementos (em tempo constante)
+
+-> Listas Encadeadas:
+- Fácil inserção e remoção de elmentos;
+- Números de elementos pode aumentar ou diminuir durante a execução.
+
+DESVANTAGENS:
+-> Lista Linear Sequencial;
+- É preciso alocar espaço suficiente para todos os elementos de uma vez;
+- Pode ter memória alocada não utilizada;
+- Pode ser difícil adicionar ou remover elementos e preciosar fazer deslocamento;
+
+-> Listas Encadeadas:
+- Acesso a cada elemento não é constante, porém depende da quantidade de elementos;
+
+BUSCA BINÁRIA:
+
+Algoritmo de busca em vetores que se baseia no paradigma da divisão e conquista.
+Ela parte do pressuposto de que o vetor está ordenado e realiza sucessivas divisões do espaço de busca,
+comparando o elemento buscado(chave) como elemento no meio do vetor.
+Se o elemento do meio do vetor for a chave, a busca termina com sucesso, caso contrário,
+se o elemento do meio vier antes do elemento buscado, então a busca continua na metade postetiro do vetor.
+E finalmente, se o  elemento do meio vier depois da chave, a busca continua na metade anterior do vetor.
+
+Sua melhor aplicação é com as listas lineares sequenciais
+tempo de realização de busca é ordem(log_n (log na base n)) com n sendo a quantiade de elementos dos vetor
