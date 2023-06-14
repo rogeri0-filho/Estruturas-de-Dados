@@ -1,0 +1,12 @@
+o que é uma fila?
+
+FIFO -> First In, First Out
+LILO -> Last In, Last Out
+
+Ponteiro que aponta pra o ultimo elemento
+Ponteiro que aponta pra o primeiro elemento
+
+A fila está vazia quando os dois ponteiros apontam para o mesmo elemento.
+
+Ao acrescentar algum elemento, o ponteiro que aponta para o *Ultimo* elemento aumenta +1
+Ao remover algum elemento, o ponteiro que aponta para o *primeiro* elemento aumenta +1
