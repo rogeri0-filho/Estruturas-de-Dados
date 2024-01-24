@@ -1,15 +1,15 @@
 # Estruturas de Dados
 
-Este repositório contém implementações de várias estruturas de dados nas linguagens Python, C, C++ e Java.
-
+Este repositório contém implementações das principais estruturas de dados na linguagem C++
 ## Conteúdo
 
 Cada diretório no repositório contém a implementação das respectivas estruturas de dados em cada uma das linguagens citadas acima, como:
 - **Listas Encadedas**
 - **Pilhas**
 - **Filas**
-- **Dicionários**
+- **Tabela Hash**
 - **Árvores**
+- **Grafos**
 
 ## Como usar
 
